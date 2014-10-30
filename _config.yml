@@ -1,0 +1,32 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+# Site settings
+title: "April * Me"
+description: > # this means to ignore newlines until "email:"
+   April's Blog
+comments: true
+email: 
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'April'
+author: 'April'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://www.aprilme.com" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	github
+    url:	https://github.com/aprilnov
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
