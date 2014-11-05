@@ -88,7 +88,6 @@
           <a name="topofpage"></a>
           {{content}}
         </section>
-          {% include disqus_comment.html  %}
         <footer class="post-footer">
           <section class="share">
             {% for social in site.social %}
@@ -124,6 +123,7 @@
             </footer>
           </div>
         </div>
+        {% include disqus_comment.html  %}
       </article>
     </main>
     <div class="bottom-closer">
