@@ -10,8 +10,8 @@
 
 $rs: 16px
 
-$font-serif: Linux Libertine
-$font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
+$font-serif: Verdana, calibri, Arial
+$font-sans: Arial, Helvetica, sans-serif
 
 
 @mixin respond-to($breakpoint)
@@ -236,20 +236,22 @@ body
     left: 0
     right: 0
     bottom: 0
+    height: 350px
     overflow: hidden
     .post-image-image
-      background-size: cover
+      background-size: contain
       position: absolute
       top: 0
       left: 0
       right: 0
       bottom: 0
+      height: 350px
       text-indent: -9999px
       padding-top: 33%
       z-index: 1
     .post-meta
       position: absolute
-      bottom: $rs*5
+      bottom: $rs
       left: 30%
       right: 30%
       z-index: 9
@@ -532,7 +534,7 @@ body
     position: relative
     z-index: 99
     max-width: 640px
-    padding: 120px 0 90px
+    padding: 120px 0 0px
     text-align: center
     margin: 0 auto
     .blog-title
