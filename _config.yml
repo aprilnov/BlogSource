@@ -4,10 +4,9 @@ highlighter: pygments
 
 # Site settings
 title: "April * Me"
-description: > # this means to ignore newlines until "email:"
-   April's Blog
+description: "April's Blog"
 comments: true
-email: 
+email: "april.pyl@gmail.com"
 #blog logo
 logo: "/assets/images/df_logo.jpg"
 # blog cover
