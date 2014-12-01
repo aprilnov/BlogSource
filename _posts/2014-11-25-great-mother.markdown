@@ -24,3 +24,4 @@ image: /assets/article_images/2014-11-25-great-mother/desktop.jpg
 是的, 我不觉得这是伟大, 这是责任, 是义务,  是动物本能, 是对生命的敬重...
 
 
+
