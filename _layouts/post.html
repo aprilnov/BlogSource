@@ -27,7 +27,7 @@
           </div>
         </div>
         <script>
-          (function ($) {
+          /*(function ($) {
               "use strict";
               $(document).ready(function(){
                   var $window = $(window),
@@ -62,7 +62,7 @@
 
               });
 
-          }(jQuery));
+          }(jQuery));*/
         </script>
         {% else %}
         <div class="noarticleimage">
@@ -73,13 +73,10 @@
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h4>
               on
               <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
-              <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
+
             </div>
           </div>
         </div>
-        <br>
-        <br>
-        <br>
         {% endif %}
         <section class="post-content">
           <a name="topofpage"></a>
