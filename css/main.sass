@@ -13,6 +13,8 @@ $rs: 16px
 $font-serif: Verdana, calibri, Arial
 $font-sans: Arial, Helvetica, sans-serif
 
+$phone-screen: 480px
+
 
 @mixin respond-to($breakpoint)
   @media only screen and (max-width: $breakpoint + px)
@@ -337,7 +339,7 @@ body
       text-overflow: ellipsis
   .post-content
     width: 100%
-    max-width: 640px
+    max-width: 100%
     margin: 0 auto
     padding-top: 20px
     font-family: $font-serif
@@ -376,8 +378,8 @@ body
       color: #333
       text-decoration: underline
     img
-      max-width: 500px
-      margin-left: 70px
+      max-width: 80%
+      margin-left: 10%
     figure
       margin: 0
       padding: 0 0 30px
