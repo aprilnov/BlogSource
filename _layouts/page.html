@@ -87,17 +87,8 @@
     <div class="bottom-closer">
       <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
         Image
-      </div>
-      <div class="inner">
-        <h1 class="blog-title">{{ site.title }}</h1>
-        <h2 class="blog-description">{{ site.description }}</h2>
-        <a href="/" class="btn">Back to Overview</a>
-        <footer class="site-footer">
-            <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
-            <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
-            <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{site.author}}</a> &copy; 2014<br>All rights reserved.</section>
-        </footer>
-      </div>
+      </div> 
+	  {% include inner_footer.html  %}
     </div>
   </body>
 </html>

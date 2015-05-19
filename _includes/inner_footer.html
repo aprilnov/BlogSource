@@ -1,14 +1,16 @@
-<!-- footer start -->
+      <div class="inner">
+        <h1 class="blog-title">{{ site.title }}</h1>
+        <h2 class="blog-description">{{ site.description }}</h2>
+        <a href="/" class="btn">Back to Overview</a>
+        <footer class="site-footer">
+            <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
+            <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+            <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{site.author}}</a> &copy; 2014<br>All rights reserved.</section>
+        </footer>
+      </div>
+	  
 
-<footer class="site-footer">
-  <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
-    <div class="inner">
-         <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; 2014 &bull; All rights reserved.</section>
-         <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
-    </div>
-</footer>
 
-<!-- footer end -->
   <script async type="text/javascript" src="{{ "/assets/js/index.js" | prepend: site.baseurl  }}"></script>
   
   <!----><script type="text/javascript">
@@ -29,4 +31,3 @@
 	  
   <link rel="stylesheet" type="text/css" media="screen" href="{{ "/css/main.css"  | prepend: site.baseurl  }}" />
   <link rel="stylesheet" type="text/css" media="print" href="{{ "/css/print.css"  | prepend: site.baseurl  }}" />
-	  
