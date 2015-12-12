@@ -16,7 +16,9 @@ name: 'April'
 author: 'April'
 author_image: "/assets/images/author.jpg"
 
+gems: [jekyll-paginate]
 paginate:	5
+paginate_path: "page:num"
 
 url: "http://www.aprilme.com" # the base hostname & protocol for your site
 baseurl: ""
