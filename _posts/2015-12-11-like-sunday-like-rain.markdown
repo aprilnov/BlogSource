@@ -6,6 +6,14 @@ categories: Mics
 tags: Mics
 image: /assets/article_images/2015-12-11-nihong-like-sunday-like-rain/desktop.jpg
 ---
+时隔半年多，终于又写日志了，撒花~  
+我真的没有放弃这里，以我的强迫症，如果放弃一定会像我之前的博客一样清理的干干净净，就像从来没有来过..😂  
+
+之前的那篇让大家担心了，不好意思。谢谢你们给我打气，很温暖~  
+
+
+***\#pragma mark - 分割线***
+
 
 计划了一年，整整一年，终于如愿来到日本，红叶季...   
  
