@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<div id='gitalk-container'></div>
+
+<script>
+const gitalk = new Gitalk({
+  clientID: 'df524b52fea65cb3504f',
+  clientSecret: '8eb483feb8dc4d39b4c1fe0019ed66385a20e156',
+  repo: 'https://github.com/aprilnov/BlogSource',
+  owner: 'april.pyl@gmail.com',
+  admin: ['april.pyl@gmail.com'],
+  id: '{{ page.title }}',
+  title: '{{ page.title }}',
+  createIssueManually: true,
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
+
+gitalk.render('gitalk-container')
+</script>
