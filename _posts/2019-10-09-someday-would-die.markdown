@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  “我也曾想过一了百了”
-date:   2019-10-09 12:45:00
+date:   2019-10-09 2:45:00
 categories: Mics
 tags: Mics
 image: /assets/article_images/2019-10-09-someday-would-die/desktop.jpg
